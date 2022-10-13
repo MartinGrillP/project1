@@ -11,3 +11,9 @@ body {
   font-size: 1.313em /* 21/16 = 1.313em*/;
   padding: 1em;
 }
+
+h1 {
+  font-size: 1.777em /* 37.315/21 = 1.777 */;
+  padding-bottom: 1em;
+  font-weight: bold;
+}
