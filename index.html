@@ -13,22 +13,20 @@
       <h1>Enter your information</h1>
     </header>
     <form method="POST" autocomplete="on" action="#null">
-      <div id="input_boxes">
-        <ol>
-          <li>
-            <label>E-mail Address: <input type="email" name="email_field" placeholder="email" /></label>
-          </li>
-          <li>
-            <label>Phone Number: <input type="tel" name="phone_field" placeholder="phone number" /></label>
-          </li>
-          <li>
-            <label>Date Of Birth: <input type="date" name="dob_field" /></label>
-          </li>
-        </ol>
-      </div>
-      <div id="submit_btn">
-        <button type="submit">Submit</button>
-      </div>
+      <ol>
+        <li>
+          <label id="email-submit">E-mail Address: <input type="email" name="email_field" placeholder="email" /></label>
+        </li>
+        <li>
+          <label i="phone-submit">Phone Number: <input type="tel" name="phone_field" placeholder="phone number" /></label>
+        </li>
+        <li>
+          <label id="dob-submit">Date Of Birth: <input type="date" name="dob_field" /></label>
+        </li>
+        <li>
+          <button id="btn-submit" type="submit">Submit</button>
+        </li>
+     </ol>
     </form>
   </body>
 </html>

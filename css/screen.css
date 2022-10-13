@@ -22,3 +22,7 @@ h1 {
   padding-bottom: 1em;
   font-weight: bold;
 }
+
+ol, li{
+  padding: 1em;
+}
