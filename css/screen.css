@@ -13,6 +13,10 @@ body {
   padding: 1em;
 }
 
+form {
+  background-color: #585A95;
+}
+
 h1 {
   font-size: 1.777em /* 37.315/21 = 1.777 */;
   padding-bottom: 1em;
