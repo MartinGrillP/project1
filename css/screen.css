@@ -1,0 +1,13 @@
+/* using 21px @ 1.333 ratio modular scale*/
+
+html {
+  padding: 0.739em; /* 11.818/16 = 0.739*/
+  /* Using this color pallette: http://paletton.com/#uid=53Z0u0kasvP2KSc6dHqfoqSl0ln*/
+  background-color: #8081B1;
+  color: #D9D9EA; 
+}
+
+body {
+  font-size: 1.313em /* 21/16 = 1.313em*/;
+  padding: 1em;
+}
