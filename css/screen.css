@@ -52,6 +52,12 @@ ol, li, p{
   padding: 1em;
 }
 
+#error {
+  color: red;
+  padding: 1em;
+  display: none;
+}
+
 @media screen and (min-width: 46.875em) { /* 800px / 16 = 46.875*/
   
   #rtximg img {
