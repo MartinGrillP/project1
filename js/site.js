@@ -1,11 +1,12 @@
 
-function checkRequirements(event) {
-  var name = document.forms["newsLetter"]["name_field"].value;
-  var email = document.forms["newsLetter"][email_field].value;
+function checkRequirements() {
   
-  if (name == "" and email == "") {
-    document.getElementById("error").style.display = "inline";
+  var name = document.forms["newsLetter"]["name_field"].value;
+  var email = document.forms["newsLetter"]["email_field"].value;
+  
+  if ((name == "") && (email == "")) {
+    document.getElementById("error").style.display = "block";
   } else {
-    alert("Sign up successful")
+    alert("Sign up successful");
   }
 }
