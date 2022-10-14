@@ -1,7 +1,7 @@
 /* using 21px @ 1.333 ratio modular scale*/
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Arial, Verdana; /* All 3 of these fonts are from the sans-serif family */
   padding: 0.739em; /* 11.818/16 = 0.739*/
   /* Using this color pallette: http://paletton.com/#uid=53Z0u0kasvP2KSc6dHqfoqSl0ln*/
   background-color: #141414;
@@ -19,6 +19,13 @@ form {
 
 p {
   background-color: #1CA71C
+}
+
+#rtximg img {
+  width: auto;
+  height: auto;
+  max-width: 33%;
+  max-height: 33%;
 }
 
 h1 {
