@@ -1,11 +1,11 @@
 /* using 21px @ 1.333 ratio modular scale*/
 
 html {
-  font-family: 'Roboto', Arial, Verdana;
+  font-family: 'Poppins', sans-serif;
   padding: 0.739em; /* 11.818/16 = 0.739*/
   /* Using this color pallette: http://paletton.com/#uid=53Z0u0kasvP2KSc6dHqfoqSl0ln*/
-  background-color: #8081B1;
-  color: #D9D9EA; 
+  background-color: #141414;
+  color: #F9F9F9; 
 }
 
 body {
@@ -14,7 +14,11 @@ body {
 }
 
 form {
-  background-color: #585A95;
+  background-color: #095409;
+}
+
+p {
+  background-color: #1CA71C
 }
 
 h1 {
@@ -23,6 +27,6 @@ h1 {
   font-weight: bold;
 }
 
-ol, li{
+ol, li, p{
   padding: 1em;
 }
