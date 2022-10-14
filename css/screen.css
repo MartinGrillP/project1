@@ -3,7 +3,7 @@
 html {
   font-family: 'Poppins', Arial, Verdana; /* All 3 of these fonts are from the sans-serif family */
   padding: 0.739em; /* 11.818/16 = 0.739*/
-  /* Using this color pallette: http://paletton.com/#uid=12P0u0ksHdgawOwrbrx003bpg7m */
+  /* Using this color pallette: http://paletton.com/#uid=12P0u0ksHdg00X4rbrx003bpg7m */
   background-color: #141414;
   color: #F9F9F9; 
 }
@@ -18,11 +18,21 @@ form {
 }
 
 input {
-  padding: 0.422em;
+  font-size: 0.8em;
+  background-color: #095409;
+  border-style: none;
+  border-bottom: 0.1em solid #1CA71C;
+}
+
+button {
+  font-size: 1em;
+  border-style: none;
+  width: 20%;
+  background-color: #1CA71C;
 }
 
 p {
-  background-color: #1CA71C
+  background-color: #1CA71C;
 }
 
 #rtximg img {
