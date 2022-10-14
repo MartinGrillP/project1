@@ -3,7 +3,7 @@
 html {
   font-family: 'Poppins', Arial, Verdana; /* All 3 of these fonts are from the sans-serif family */
   padding: 0.739em; /* 11.818/16 = 0.739*/
-  /* Using this color pallette: http://paletton.com/#uid=53Z0u0kasvP2KSc6dHqfoqSl0ln*/
+  /* Using this color pallette: http://paletton.com/#uid=12P0u0ksHdgawOwrbrx003bpg7m */
   background-color: #141414;
   color: #F9F9F9; 
 }
@@ -38,6 +38,17 @@ ol, li, p{
   padding: 1em;
 }
 
+@media screen and (min-width: 46.875em) { /* 800px / 16 = 46.875*/
+  
+  #rtximg img {
+    width: auto;
+    height: auto;
+    max-width: 49%;
+    max-height: 49%;
+  }
+
+}
+
 @media screen and (min-width: 72.5em) { /* 1160px / 16 =*/
   
   #rtximg img {
@@ -47,3 +58,5 @@ ol, li, p{
     max-height: 33%;
   }
 }
+
+
