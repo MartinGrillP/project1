@@ -13,11 +13,14 @@
       <h1>GPU availability list</h1>
     </header>
     <p>
-      Sign up with your information below so that you can get the latest news on up and coming GPUs as well as which
-      high quality GPUs are back in stock.
+      Sign up with your information below so that you can get a heads up on 
+      which high quality GPUs are back in stock or have just entered the market.
     </p>
     <form method="POST" autocomplete="on" action="#null">
       <ol>
+        <li>
+          <label id="name-submit">Name: <input type="text" name="name_field" placeholder="name" /></label>
+        </li>
         <li>
           <label id="email-submit">E-mail Address: <input type="email" name="email_field" placeholder="email" /></label>
         </li>
@@ -29,7 +32,8 @@
           <label for="phoneAlert">send me phone alerts for high demand items</label>
         </li>
         <li>
-          <label id="dob-submit">Date Of Birth: <input type="date" name="dob_field" /></label>
+          <input type="checkbox" id="gpunews-chkbx" name="gpuNews">
+          <label for="gpuNews">send me news about latest GPUs coming out</label>
         </li>
         <li>
           <button id="btn-submit" type="submit">Submit</button>
