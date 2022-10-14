@@ -52,6 +52,10 @@ ol, li, p{
   padding: 1em;
 }
 
+#phonealert-chkbx, #gpunews-chkbx {
+  transform: scale(1.5);
+}
+
 #error {
   color: red;
   padding: 1em;
