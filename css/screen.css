@@ -6,11 +6,14 @@ html {
   /* Using this color pallette: http://paletton.com/#uid=12P0u0ksHdg00X4rbrx003bpg7m */
   background-color: #141414;
   color: #F9F9F9; 
+  
 }
 
 body {
-  font-size: 1.75em /* 27.993/16 = 1.75em*/;
+  /*using 21px @ 1.333 ratio modular scale https://www.modularscale.com/?21&px&1.333*/
+  font-size: 1.75em;/* 27.993/16 = 1.75em*/
   padding: 1em;
+  line-height: 1.333em; 
 }
 
 form {
