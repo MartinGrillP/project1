@@ -24,7 +24,7 @@ input {
   border-bottom: 0.1em solid #1CA71C;
 }
 
-button {
+#submit-btn {
   font-size: 1em;
   border-style: none;
   width: 100%;
@@ -82,7 +82,7 @@ ol, li, p{
     max-height: 33%;
   }
   
-  button {
+  #submit-btn {
     width: 30%;
   }
 }
